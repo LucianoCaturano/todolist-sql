@@ -7,7 +7,7 @@ if ($newString != null AND $newString != false) {
 
     require 'requestSQL.php';
 
-    echo 'Tâche ajoutée';
+    echo '<a href="index.php">Revenir à l\'accueil</a>';
 } else {
     echo 'Champ vide ou incorrect';
 }

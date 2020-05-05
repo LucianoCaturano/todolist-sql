@@ -8,7 +8,14 @@
         <title>Todo List</title>
     </head>
     <body>
-     <h2>Ajouter une tâche</h2>
+
+    <h2>À FAIRE</h2>
+        <?php
+            include 'connexion.php';
+            include 'displayQuery.php';
+        ?>
+    <h2>ARCHIVE</h2>
+    <h2>Ajouter une tâche</h2>
         <h3>La tâche à effectuer</h3>
              <form action="cible.php" method="post">
 
