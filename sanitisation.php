@@ -9,7 +9,7 @@ if ($newString != null AND $newString != false) {
 
     echo '<a href="index.php">Revenir à l\'accueil</a>';
 } else {
-    echo 'Champ vide ou incorrect';
+    echo 'Champ vide ou incorrect : <a href="index.php">Revenir à l\'accueil</a>';
 }
 
 ?>

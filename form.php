@@ -11,8 +11,8 @@
 
     <h2>À FAIRE</h2>
         <?php
-            include 'connexion.php';
-            include 'displayQuery.php';
+            require 'connexion.php';
+            require 'displayQuery.php';
         ?>
     <h2>ARCHIVE</h2>
     <h2>Ajouter une tâche</h2>

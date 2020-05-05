@@ -9,7 +9,7 @@
     </head>
     <body>
         <?php
-        include 'form.php';
+        require 'form.php';
         ?>
     </body>
 </html>
