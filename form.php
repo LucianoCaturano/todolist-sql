@@ -11,10 +11,10 @@
      <h2>Ajouter une tâche</h2>
         <h3>La tâche à effectuer</h3>
              <form action="cible.php" method="post">
-                 <p>
+
                      <textarea name="message">Nouvelle tâche</textarea>
                      <input type="submit" value="Ajouter" />
-                 </p>
+
              </form>
     </body>
 </html>
