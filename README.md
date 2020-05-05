@@ -13,7 +13,7 @@ Duration : 3 days
 
 Deadline: 25 march 2020
 
-## languages ​​used?
+## Languages ​​used?
 
 - HTML
 - PHP
