@@ -15,6 +15,9 @@
             require 'displayQuery.php';
         ?>
     <h2>ARCHIVE</h2>
+        <?php
+        require 'deletetask.php';
+        ?>
     <h2>Ajouter une tâche</h2>
         <h3>La tâche à effectuer</h3>
              <form action="cible.php" method="post">
