@@ -12,7 +12,7 @@
         <h3>La tâche à effectuer</h3>
              <form action="cible.php" method="post">
 
-                     <textarea name="message">Nouvelle tâche</textarea>
+                     <textarea name="message"></textarea>
                      <input type="submit" value="Ajouter" />
 
              </form>

@@ -10,14 +10,7 @@
     <body>
 
     <?php
-        $stringTrimmed = trim($_POST['message']);
-        $newString = filter_var($stringTrimmed,FILTER_SANITIZE_STRING);
-         if ($newString != null AND $newString != false) {
-             echo 'Tâche '.$newString.' ajoutée';
-         } else {
-             echo 'Champ vide ou incorrect';
-         }
+        require 'sanitisation.php';
     ?>
-
     </body>
 </html>
